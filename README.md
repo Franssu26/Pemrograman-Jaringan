@@ -1,164 +1,69 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>README Praktikum Node.js</title>
-    <style>
-        body {
-            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f7f9fc;
-            color: #2c3e50;
-            line-height: 1.8;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 900px;
-            margin: 40px auto;
-            background: #ffffff;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-        }
-        h1, h2, h3 {
-            color: #1e3799;
-        }
-        h1 {
-            text-align: center;
-            margin-bottom: 10px;
-        }
-        h2 {
-            margin-top: 40px;
-            border-left: 5px solid #4a69bd;
-            padding-left: 12px;
-        }
-        p {
-            text-align: justify;
-            margin-top: 12px;
-        }
-        .identity p {
-            margin: 4px 0;
-        }
-        footer {
-            margin-top: 50px;
-            text-align: center;
-            font-style: italic;
-            color: #555;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>README Praktikum Pemrograman Jaringan (Node.js)</h1>
+🚀 Praktikum Pemrograman Jaringan – Node.js
+<p align="center"> <img src="https://nodejs.org/static/images/logo.svg" alt="Node.js Logo" width="180"/> </p>
+👤 Identitas Mahasiswa
+<p align="center"> <img src="https://img.shields.io/badge/Nama-Frans%20Surya%20Pati%20Harau-blue" /> <img src="https://img.shields.io/badge/NIM-23343039-green" /> <img src="https://img.shields.io/badge/Prodi-Informatika-orange" /> </p>
 
-        <section class="identity">
-            <h2>Identitas Mahasiswa</h2>
-            <p><strong>Nama</strong> : Frans Surya Pati Harau</p>
-            <p><strong>NIM</strong> : 23343039</p>
-            <p><strong>Program Studi</strong> : Informatika</p>
-            <p><strong>Sesi</strong> : 202513430093 : INF1.62.5010</p>
-        </section>
+Nama : Frans Surya Pati Harau
+NIM : 23343039
+Program Studi : Informatika
+Sesi : 202513430093 : INF1.62.5010
 
-        <section>
-            <h2>Deskripsi Repository</h2>
-            <p>
-                Repository ini disusun sebagai dokumentasi sekaligus hasil dari praktikum Pemrograman Jaringan berbasis Node.js.
-                Seluruh isi repository menggambarkan proses pembelajaran yang dilakukan secara bertahap, mulai dari pengenalan
-                Node.js hingga penerapan konsep lanjutan seperti database, deployment aplikasi, dan komunikasi real-time.
-                Setiap jobsheet dirancang untuk memperkuat pemahaman konsep sekaligus keterampilan praktik dalam pengembangan
-                aplikasi jaringan modern menggunakan JavaScript.
-            </p>
-        </section>
+📂 Deskripsi Repository
+<p align="center"> <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" width="120"/> </p>
 
-        <section>
-            <h2>Jobsheet 1 – Pengantar Node.js</h2>
-            <p>
-                Jobsheet pertama membahas pengantar Node.js sebagai runtime environment JavaScript yang berjalan di sisi server.
-                Pada bagian ini dipelajari konsep dasar Node.js, perbedaannya dengan JavaScript yang berjalan di browser,
-                proses instalasi Node.js, serta cara mengeksekusi program JavaScript menggunakan command line.
-                Jobsheet ini menjadi fondasi utama sebelum memasuki materi Node.js yang lebih mendalam.
-            </p>
-        </section>
+Repository ini berisi kumpulan jobsheet praktikum Pemrograman Jaringan berbasis Node.js. Seluruh jobsheet disusun secara sistematis untuk membantu memahami konsep dasar hingga lanjutan dalam pengembangan aplikasi jaringan menggunakan JavaScript. Repository ini menjadi dokumentasi pembelajaran sekaligus referensi dalam membangun aplikasi server-side modern.
 
-        <section>
-            <h2>Jobsheet 2 – Node.js Module System</h2>
-            <p>
-                Jobsheet kedua menjelaskan sistem modul pada Node.js yang memungkinkan pemecahan program menjadi bagian-bagian
-                kecil yang terstruktur dan mudah dikelola. Materi meliputi penggunaan module bawaan Node.js, pembuatan modul
-                sendiri, serta pemanfaatan <em>require</em>, <em>exports</em>, dan <em>module.exports</em> untuk berbagi fungsi
-                maupun variabel antar file.
-            </p>
-        </section>
+📘 Daftar Jobsheet
+🔹 Jobsheet 1 – Pengantar Node.js
+<p align="center"> <img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png" width="80"/> </p>
 
-        <section>
-            <h2>Jobsheet 3 – HTTP Request dan API</h2>
-            <p>
-                Jobsheet ini berfokus pada pemahaman konsep HTTP Request dan Response serta penerapannya dalam pembuatan API.
-                Pembahasan mencakup metode HTTP seperti GET dan POST, cara mengirim dan menerima data, serta pembuatan API
-                sederhana menggunakan Node.js. Materi ini menjadi dasar dalam membangun layanan berbasis web dan aplikasi
-                client–server.
-            </p>
-        </section>
+Jobsheet ini membahas pengenalan Node.js sebagai runtime JavaScript di sisi server. Materi mencakup konsep dasar Node.js, perbedaannya dengan JavaScript di browser, instalasi Node.js, serta cara menjalankan program JavaScript menggunakan command line.
 
-        <section>
-            <h2>Jobsheet 4 – JavaScript Essentials</h2>
-            <p>
-                Jobsheet keempat membahas konsep penting JavaScript yang sering digunakan dalam pengembangan aplikasi Node.js.
-                Materi meliputi variabel dan tipe data, fungsi dan arrow function, array dan object, serta konsep asynchronous
-                JavaScript seperti callback, promise, dan async/await yang sangat penting dalam pemrograman server-side.
-            </p>
-        </section>
+🔹 Jobsheet 2 – Node.js Module System
+<p align="center"> <img src="https://cdn-icons-png.flaticon.com/512/1087/1087840.png" width="80"/> </p>
 
-        <section>
-            <h2>Jobsheet 5 – Web Server dan Express.js</h2>
-            <p>
-                Jobsheet ini membahas pembuatan web server menggunakan framework Express.js. Pada bagian ini dipelajari konsep
-                routing, middleware, serta cara membangun dan menjalankan server web sederhana. Express.js digunakan untuk
-                mempermudah pengembangan aplikasi web yang terstruktur, efisien, dan mudah dikembangkan.
-            </p>
-        </section>
+Jobsheet ini menjelaskan sistem modul pada Node.js yang memungkinkan program dibagi menjadi bagian-bagian kecil dan terstruktur. Materi meliputi penggunaan module bawaan, pembuatan module sendiri, serta penggunaan require, exports, dan module.exports.
 
-        <section>
-            <h2>Jobsheet 6 – JSON HTTP Endpoints</h2>
-            <p>
-                Jobsheet keenam menjelaskan pembuatan endpoint berbasis JSON yang umum digunakan pada REST API.
-                Materi mencakup konsep RESTful service, pengiriman dan penerimaan data dalam format JSON, serta pembuatan
-                endpoint GET dan POST. Jobsheet ini membantu memahami bagaimana aplikasi backend berkomunikasi dengan frontend.
-            </p>
-        </section>
+🔹 Jobsheet 3 – HTTP Request dan API
+<p align="center"> <img src="https://cdn-icons-png.flaticon.com/512/2306/2306177.png" width="80"/> </p>
 
-        <section>
-            <h2>Jobsheet 7 – Version Control dan App Deployment</h2>
-            <p>
-                Jobsheet ini membahas penggunaan version control menggunakan Git dan GitHub untuk mengelola source code.
-                Selain itu, dipelajari pula dasar-dasar deployment aplikasi Node.js agar dapat dijalankan pada server.
-                Materi ini penting untuk memahami alur kerja pengembangan aplikasi secara kolaboratif dan profesional.
-            </p>
-        </section>
+Jobsheet ini membahas konsep HTTP request dan response serta penerapannya dalam pembuatan API. Materi mencakup metode HTTP seperti GET dan POST, pengiriman data, serta pembuatan API sederhana menggunakan Node.js.
 
-        <section>
-            <h2>Jobsheet 8 – MongoDB dan Database Server</h2>
-            <p>
-                Jobsheet kedelapan berfokus pada penggunaan MongoDB sebagai database NoSQL.
-                Materi meliputi konsep database non-relasional, proses instalasi MongoDB, operasi CRUD
-                (Create, Read, Update, Delete), serta integrasi MongoDB dengan aplikasi Node.js.
-                Jobsheet ini memperkenalkan pengelolaan data secara dinamis pada aplikasi backend.
-            </p>
-        </section>
+🔹 Jobsheet 4 – JavaScript Essentials
+<p align="center"> <img src="https://cdn-icons-png.flaticon.com/512/919/919828.png" width="80"/> </p>
 
-        <section>
-            <h2>Jobsheet 9 – Socket Programming</h2>
-            <p>
-                Jobsheet terakhir membahas konsep socket programming untuk membangun komunikasi real-time antara client dan server.
-                Materi ini menjelaskan dasar komunikasi socket serta implementasi sederhana socket pada Node.js.
-                Dengan jobsheet ini, mahasiswa dapat memahami bagaimana aplikasi real-time seperti chat atau notifikasi bekerja.
-            </p>
-        </section>
+Jobsheet ini membahas konsep penting JavaScript yang digunakan dalam Node.js, seperti variabel, fungsi, array, object, serta asynchronous JavaScript menggunakan callback, promise, dan async/await.
 
-        <footer>
-            <p>Dibuat oleh <strong>Frans Surya Pati Harau</strong> – Program Studi Informatika</p>
-        </footer>
-    </div>
-</body>
-</html>
+🔹 Jobsheet 5 – Web Server dan Express.js
+<p align="center"> <img src="https://cdn-icons-png.flaticon.com/512/1006/1006363.png" width="80"/> </p>
+
+Jobsheet ini membahas pembuatan web server menggunakan framework Express.js, meliputi routing, middleware, serta pembuatan server web sederhana untuk aplikasi backend.
+
+🔹 Jobsheet 6 – JSON HTTP Endpoints
+<p align="center"> <img src="https://cdn-icons-png.flaticon.com/512/136/136525.png" width="80"/> </p>
+
+Jobsheet ini menjelaskan pembuatan endpoint berbasis JSON dalam REST API, termasuk pengiriman dan penerimaan data JSON menggunakan metode GET dan POST.
+
+🔹 Jobsheet 7 – Version Control dan App Deployment
+<p align="center"> <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" width="80"/> </p>
+
+Jobsheet ini membahas penggunaan Git dan GitHub sebagai version control serta dasar-dasar deployment aplikasi Node.js ke server.
+
+🔹 Jobsheet 8 – MongoDB dan Database Server
+<p align="center"> <img src="https://cdn-icons-png.flaticon.com/512/919/919836.png" width="80"/> </p>
+
+Jobsheet ini membahas penggunaan MongoDB sebagai database NoSQL, mencakup instalasi, operasi CRUD, serta integrasi MongoDB dengan aplikasi Node.js.
+
+🔹 Jobsheet 9 – Socket Programming
+<p align="center"> <img src="https://cdn-icons-png.flaticon.com/512/3063/3063822.png" width="80"/> </p>
+
+Jobsheet terakhir membahas konsep socket programming untuk membangun komunikasi real-time antara client dan server menggunakan Node.js, seperti pada aplikasi chat dan notifikasi.
+
+✅ Penutup
+<p align="center"> <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="90"/> </p>
+
+Repository ini diharapkan dapat menjadi dokumentasi pembelajaran sekaligus referensi dalam memahami pengembangan aplikasi jaringan berbasis Node.js. Seluruh jobsheet disusun untuk meningkatkan pemahaman konsep, keterampilan teknis, serta kesiapan dalam membangun aplikasi backend secara profesional.
+
+Dibuat oleh
+Frans Surya Pati Harau
+Program Studi Informatika
