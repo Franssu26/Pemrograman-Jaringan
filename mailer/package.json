@@ -1,0 +1,19 @@
+{
+  "name": "mailer",
+  "version": "1.0.0",
+  "description": "In this project, we are going to add nodemailer to send mails.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mailgen": "^2.0.32",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.22"
+  },
+  "type": "commonjs"
+}
